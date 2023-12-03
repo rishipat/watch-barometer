@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC0DA1D2B1C73030083BD5C /* WatchBarometer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5BC0DA1C2B1C73030083BD5C /* WatchBarometer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BC0DA222B1C73030083BD5C /* WatchBarometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DA212B1C73030083BD5C /* WatchBarometerApp.swift */; };
+		5BC0DA242B1C73030083BD5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DA232B1C73030083BD5C /* ContentView.swift */; };
+		5BC0DA262B1C73050083BD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0DA252B1C73050083BD5C /* Assets.xcassets */; };
+		5BC0DA292B1C73050083BD5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0DA282B1C73050083BD5C /* Preview Assets.xcassets */; };
+		5BC0DA332B1C73050083BD5C /* WatchBarometer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DA322B1C73050083BD5C /* WatchBarometer_Watch_AppTests.swift */; };
+		5BC0DA3D2B1C73050083BD5C /* WatchBarometer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DA3C2B1C73050083BD5C /* WatchBarometer_Watch_AppUITests.swift */; };
+		5BC0DA3F2B1C73050083BD5C /* WatchBarometer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0DA3E2B1C73050083BD5C /* WatchBarometer_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC0DA1E2B1C73030083BD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0DA102B1C73030083BD5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC0DA1B2B1C73030083BD5C;
+			remoteInfo = "WatchBarometer Watch App";
+		};
+		5BC0DA2F2B1C73050083BD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0DA102B1C73030083BD5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC0DA1B2B1C73030083BD5C;
+			remoteInfo = "WatchBarometer Watch App";
+		};
+		5BC0DA392B1C73050083BD5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC0DA102B1C73030083BD5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC0DA1B2B1C73030083BD5C;
+			remoteInfo = "WatchBarometer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BC0DA452B1C73050083BD5C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5BC0DA1D2B1C73030083BD5C /* WatchBarometer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5BC0DA162B1C73030083BD5C /* WatchBarometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchBarometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DA1C2B1C73030083BD5C /* WatchBarometer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchBarometer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DA212B1C73030083BD5C /* WatchBarometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBarometerApp.swift; sourceTree = "<group>"; };
+		5BC0DA232B1C73030083BD5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BC0DA252B1C73050083BD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC0DA282B1C73050083BD5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BC0DA2E2B1C73050083BD5C /* WatchBarometer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchBarometer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DA322B1C73050083BD5C /* WatchBarometer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBarometer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5BC0DA382B1C73050083BD5C /* WatchBarometer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchBarometer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0DA3C2B1C73050083BD5C /* WatchBarometer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBarometer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5BC0DA3E2B1C73050083BD5C /* WatchBarometer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBarometer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC0DA192B1C73030083BD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA2B2B1C73050083BD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA352B1C73050083BD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC0DA0F2B1C73030083BD5C = {
+			isa = PBXGroup;
+			children = (
+				5BC0DA202B1C73030083BD5C /* WatchBarometer Watch App */,
+				5BC0DA312B1C73050083BD5C /* WatchBarometer Watch AppTests */,
+				5BC0DA3B2B1C73050083BD5C /* WatchBarometer Watch AppUITests */,
+				5BC0DA172B1C73030083BD5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC0DA172B1C73030083BD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DA162B1C73030083BD5C /* WatchBarometer.app */,
+				5BC0DA1C2B1C73030083BD5C /* WatchBarometer Watch App.app */,
+				5BC0DA2E2B1C73050083BD5C /* WatchBarometer Watch AppTests.xctest */,
+				5BC0DA382B1C73050083BD5C /* WatchBarometer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC0DA202B1C73030083BD5C /* WatchBarometer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DA212B1C73030083BD5C /* WatchBarometerApp.swift */,
+				5BC0DA232B1C73030083BD5C /* ContentView.swift */,
+				5BC0DA252B1C73050083BD5C /* Assets.xcassets */,
+				5BC0DA272B1C73050083BD5C /* Preview Content */,
+			);
+			path = "WatchBarometer Watch App";
+			sourceTree = "<group>";
+		};
+		5BC0DA272B1C73050083BD5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DA282B1C73050083BD5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BC0DA312B1C73050083BD5C /* WatchBarometer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DA322B1C73050083BD5C /* WatchBarometer_Watch_AppTests.swift */,
+			);
+			path = "WatchBarometer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5BC0DA3B2B1C73050083BD5C /* WatchBarometer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0DA3C2B1C73050083BD5C /* WatchBarometer_Watch_AppUITests.swift */,
+				5BC0DA3E2B1C73050083BD5C /* WatchBarometer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchBarometer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC0DA152B1C73030083BD5C /* WatchBarometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DA462B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer" */;
+			buildPhases = (
+				5BC0DA142B1C73030083BD5C /* Resources */,
+				5BC0DA452B1C73050083BD5C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC0DA1F2B1C73030083BD5C /* PBXTargetDependency */,
+			);
+			name = WatchBarometer;
+			productName = WatchBarometer;
+			productReference = 5BC0DA162B1C73030083BD5C /* WatchBarometer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5BC0DA1B2B1C73030083BD5C /* WatchBarometer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DA422B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer Watch App" */;
+			buildPhases = (
+				5BC0DA182B1C73030083BD5C /* Sources */,
+				5BC0DA192B1C73030083BD5C /* Frameworks */,
+				5BC0DA1A2B1C73030083BD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchBarometer Watch App";
+			productName = "WatchBarometer Watch App";
+			productReference = 5BC0DA1C2B1C73030083BD5C /* WatchBarometer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BC0DA2D2B1C73050083BD5C /* WatchBarometer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DA492B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer Watch AppTests" */;
+			buildPhases = (
+				5BC0DA2A2B1C73050083BD5C /* Sources */,
+				5BC0DA2B2B1C73050083BD5C /* Frameworks */,
+				5BC0DA2C2B1C73050083BD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC0DA302B1C73050083BD5C /* PBXTargetDependency */,
+			);
+			name = "WatchBarometer Watch AppTests";
+			productName = "WatchBarometer Watch AppTests";
+			productReference = 5BC0DA2E2B1C73050083BD5C /* WatchBarometer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BC0DA372B1C73050083BD5C /* WatchBarometer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0DA4C2B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer Watch AppUITests" */;
+			buildPhases = (
+				5BC0DA342B1C73050083BD5C /* Sources */,
+				5BC0DA352B1C73050083BD5C /* Frameworks */,
+				5BC0DA362B1C73050083BD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC0DA3A2B1C73050083BD5C /* PBXTargetDependency */,
+			);
+			name = "WatchBarometer Watch AppUITests";
+			productName = "WatchBarometer Watch AppUITests";
+			productReference = 5BC0DA382B1C73050083BD5C /* WatchBarometer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC0DA102B1C73030083BD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5BC0DA152B1C73030083BD5C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5BC0DA1B2B1C73030083BD5C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5BC0DA2D2B1C73050083BD5C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5BC0DA1B2B1C73030083BD5C;
+					};
+					5BC0DA372B1C73050083BD5C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5BC0DA1B2B1C73030083BD5C;
+					};
+				};
+			};
+			buildConfigurationList = 5BC0DA132B1C73030083BD5C /* Build configuration list for PBXProject "WatchBarometer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC0DA0F2B1C73030083BD5C;
+			productRefGroup = 5BC0DA172B1C73030083BD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC0DA152B1C73030083BD5C /* WatchBarometer */,
+				5BC0DA1B2B1C73030083BD5C /* WatchBarometer Watch App */,
+				5BC0DA2D2B1C73050083BD5C /* WatchBarometer Watch AppTests */,
+				5BC0DA372B1C73050083BD5C /* WatchBarometer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC0DA142B1C73030083BD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA1A2B1C73030083BD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DA292B1C73050083BD5C /* Preview Assets.xcassets in Resources */,
+				5BC0DA262B1C73050083BD5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA2C2B1C73050083BD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA362B1C73050083BD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC0DA182B1C73030083BD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DA242B1C73030083BD5C /* ContentView.swift in Sources */,
+				5BC0DA222B1C73030083BD5C /* WatchBarometerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA2A2B1C73050083BD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DA332B1C73050083BD5C /* WatchBarometer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0DA342B1C73050083BD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC0DA3F2B1C73050083BD5C /* WatchBarometer_Watch_AppUITestsLaunchTests.swift in Sources */,
+				5BC0DA3D2B1C73050083BD5C /* WatchBarometer_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC0DA1F2B1C73030083BD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC0DA1B2B1C73030083BD5C /* WatchBarometer Watch App */;
+			targetProxy = 5BC0DA1E2B1C73030083BD5C /* PBXContainerItemProxy */;
+		};
+		5BC0DA302B1C73050083BD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC0DA1B2B1C73030083BD5C /* WatchBarometer Watch App */;
+			targetProxy = 5BC0DA2F2B1C73050083BD5C /* PBXContainerItemProxy */;
+		};
+		5BC0DA3A2B1C73050083BD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC0DA1B2B1C73030083BD5C /* WatchBarometer Watch App */;
+			targetProxy = 5BC0DA392B1C73050083BD5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BC0DA402B1C73050083BD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BC0DA412B1C73050083BD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5BC0DA432B1C73050083BD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchBarometer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchBarometer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WatchBarometer.WatchBarometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5BC0DA442B1C73050083BD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchBarometer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchBarometer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WatchBarometer.WatchBarometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		5BC0DA472B1C73050083BD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchBarometer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WatchBarometer.WatchBarometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5BC0DA482B1C73050083BD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchBarometer;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WatchBarometer.WatchBarometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC0DA4A2B1C73050083BD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WatchBarometer.WatchBarometer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchBarometer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchBarometer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5BC0DA4B2B1C73050083BD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WatchBarometer.WatchBarometer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchBarometer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchBarometer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		5BC0DA4D2B1C73050083BD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WatchBarometer.WatchBarometer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchBarometer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5BC0DA4E2B1C73050083BD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9M7U9V29T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WatchBarometer.WatchBarometer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchBarometer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC0DA132B1C73030083BD5C /* Build configuration list for PBXProject "WatchBarometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DA402B1C73050083BD5C /* Debug */,
+				5BC0DA412B1C73050083BD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DA422B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DA432B1C73050083BD5C /* Debug */,
+				5BC0DA442B1C73050083BD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DA462B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DA472B1C73050083BD5C /* Debug */,
+				5BC0DA482B1C73050083BD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DA492B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DA4A2B1C73050083BD5C /* Debug */,
+				5BC0DA4B2B1C73050083BD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0DA4C2B1C73050083BD5C /* Build configuration list for PBXNativeTarget "WatchBarometer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0DA4D2B1C73050083BD5C /* Debug */,
+				5BC0DA4E2B1C73050083BD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC0DA102B1C73030083BD5C /* Project object */;
+}
